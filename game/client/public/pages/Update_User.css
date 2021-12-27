@@ -1,0 +1,140 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 710px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 318px;
+  margin: 29px 0 0 570px;
+}
+
+.u-section-1 .u-label-1 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-input-1 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-2 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-input-2 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-label-3 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-input-3 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-4 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-input-4 {
+  font-family: Alata;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: -56px 298px 0 auto;
+}
+
+.u-section-1 .u-group-1 {
+  width: 509px;
+  min-height: 252px;
+  background-image: none;
+  height: auto;
+  margin: -330px auto 60px 48px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 0 9px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Alata;
+  margin: 11px 29px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Alata;
+  text-align: left;
+  margin: 29px 29px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: Alata;
+  text-align: left;
+  margin: 29px 25px 0 auto;
+}
+
+.u-section-1 .u-text-4 {
+  font-family: Alata;
+  text-align: left;
+  margin: 29px 25px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-form-1 {
+    margin-left: 470px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 98px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: -258px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-form-1 {
+    margin-left: 250px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,96 @@
+<html>
+<head>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Alata:400">
+    
+
+    </head>
+    <body>
+    <div className="container">
+            <div className="row">
+              <div className="col s8 offset-s2">
+              <button className="btn-flat waves-effect"><a href="/">Back to Home</a></button>
+                <div className="col s12" style='padding-left: 11.250px'>
+                  <h4>
+                    <b>Register</b> below
+                  </h4>
+                  <p className="grey-text text-darken-1">
+                    Already have an account? <button className="btn-flat waves-effect"><a href="/login">Login</a></button>
+                  </p>
+                </div>
+                <form noValidate onSubmit={this.onSubmit}>
+                  <div className="input-field col s12">
+                    <input
+                      id="name"
+                      type="text"
+                    />
+                    <label htmlFor="name">Name</label>
+                  </div>
+                  <div className="input-field col s12">
+                    <input
+                      onChange={this.onChange}
+                      value={this.state.username}
+                      error={errors.username}
+                      id="username"
+                      type="text"
+                    />
+                    <label htmlFor="name">Username</label>
+                  </div>
+                  <div className="input-field col s12">
+                    <input
+                      onChange={this.onChange}
+                      value={this.state.email}
+                      error={errors.email}
+                      id="email"
+                      type="email"
+                    />
+                    <label htmlFor="email">Email</label>
+                  </div>
+                  <div className="input-field col s12">
+                    <input
+                      onChange={this.onChange}
+                      value={this.state.password}
+                      error={errors.password}
+                      id="password"
+                      type="password"
+                    />
+                    <label htmlFor="password">Password</label>
+                  </div>
+                  <div className="input-field col s12">
+                    <input
+                      onChange={this.onChange}
+                      value={this.state.password2}
+                      error={errors.password2}
+                      id="password2"
+                      type="password"
+                    />
+                    <label htmlFor="password2">Confirm Password</label>
+                  </div>
+                  <div className="col s12" style='padding-left: 11.250px'>
+                    <button
+                      style='
+                        width: 150px;
+                        border-radius : 3px;
+                        letter-spacing: 1.5px;
+                        margin-top: 1rem
+                      '
+                      type="submit"
+                      className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                      onClick={this.onSubmit}
+                    >
+                      Sign up
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+          </body>
+</html>
+
+
